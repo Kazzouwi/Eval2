@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #ededed;
+}
+  
+.new {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+  
+.new button {
+    height: 25px
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.game {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    height: 75vh;
+}
+  
+#p1name {
+    text-decoration: underline;
+}
+  
+.p1, .p2, .choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.count{
+    font-size: 2rem;
+    color: #ff5757;
+    margin-top: -15px;
+}
+  
+.global {
+    background-color: #ff5757;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+  
+.p1-global, .p2-global {
+    margin: -8px;
+    color: white;
+    font-size: 1.5rem ;
+}
+  
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+img {
+    margin-bottom: 20px;
+    width: 15vw;
+    height: 15vw;
+}
+  
+.roll, .hold {
+    display: flex;
+    align-items: center;
+}
+  
+.roll button, .hold button {
+    margin-right: 10px;
+}
+  
+i {
+    color: #ff5757;
+}
+  
+button {
+    border: none;
+    background: #ededed;
+}
+  
+.hover:hover {
+    font-size: 1.5rem;
+}

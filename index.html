@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="new">
+    <button type="button" class="new button hover"><i class="fa-solid fa-plus fa-xl" onClick="newGame()"></i></button>
+    <h2 class="new title">NEW GAME</h2>
+  </div>
+  <h1 id="victory"></h1>
+  <div class="game">
+    <div class="p1">
+      <div class="round">
+        <h1 id="p1name">PLAYER 1</h1>
+        <p class="p1 count" id="g1">0</p>
+      </div>
+      <div class="p1 global">
+        <p>CURRENT</p>
+        <p class="p1-global" id="r1">0</p>
+      </div>
+    </div>
+    <div class="middle">
+      <img class="dice" src="img/Dice1.png">
+      <div class="choice">
+        <div class="roll">
+          <button type="button" class="rollbtn hover"  onClick="rollDice()"><i class="fa-solid fa-rotate"></i></button>
+          <p>ROLL DICE</p>
+        </div>
+        <div class="hold">
+          <button type="button" class="holdbtn hover" onClick="holdScore()"><i class="fa-solid fa-arrow-down"></i></button>
+          <p>HOLD</p>
+        </div>  
+      </div>
+    </div>
+    <div class="p2">
+      <div class="round">
+        <h1 id="p2name">PLAYER 2</h1>
+        <p class="p2 count" id="g2">99</p>
+      </div>
+      <div class="p2 global">
+        <p>CURRENT</p>
+        <p class="p2-global" id="r2">0</p>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
